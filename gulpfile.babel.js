@@ -6,7 +6,6 @@ import chokidar from 'chokidar';
 import del from 'del';
 import gulp from 'gulp';
 import gulpBabel from 'gulp-babel';
-import vinylPaths from 'vinyl-paths';
 
 gulp.task('watch', [ 'compile' ], watch);
 function watch() {
@@ -24,10 +23,7 @@ function compile() {
 
 gulp.task('clean', [], clean);
 function clean() {
-    var stream = gulp.src([
+    return del([
         'lib'
-    ], { read: false });
-
-    return stream
-        .pipe(vinylPaths(del));
+    ]);
 }
