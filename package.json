@@ -1,0 +1,25 @@
+{
+  "name": "munster-model",
+  "version": "1.0.0",
+  "description": "Munster project and module model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/munster-model.git"
+  },
+  "keywords": [
+    "munster",
+    "project",
+    "module",
+    "model"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/munster-model/issues"
+  },
+  "homepage": "https://github.com/kjots/munster-model#readme"
+}
